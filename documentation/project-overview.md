@@ -59,14 +59,15 @@ Splunk Universal Forwarders sent collected events to:
 
 ```text
 192.168.74.10:9997
+```
 
 The data was organized into separate indexes:
 
-| Splunk | Index |	Data | Type |
-|---|---|---|---|
-| 'windows' |	Windows Event Logs and PowerShell activity |
-| 'linux' |	Linux authentication and system activity |
-| 'network' |	Snort alerts and network-related events |
+| Splunk Index | Data Type |
+|---|---|
+| `windows` | Windows Event Logs and PowerShell activity |
+| `linux` | Linux authentication and system activity |
+| `network` | Snort alerts and network-related events |
 
 ## Security Events Tested
 
@@ -74,14 +75,14 @@ Controlled activity was generated to test the lab’s monitoring capabilities.
 
 The testing included:
 
--Failed Linux authentication attempts
--Unauthorized SSH activity
--Nmap port scanning
--Suspicious PowerShell activity
--Failed Windows login attempts
--Privileged account modification
--Snort IDS alerts
--Suspicious file activity
+- Failed Linux authentication attempts
+- Unauthorized SSH activity
+- Nmap port scanning
+- Suspicious PowerShell activity
+- Failed Windows login attempts
+- Privileged account modification
+- Snort IDS alerts
+- Suspicious file activity
 
 Each test is documented separately in the 'splunk-searches' folder.
 
@@ -97,24 +98,24 @@ The project demonstrates the complete flow of a security event:
 6. The activity is located through a Splunk search.
 7. The result is reviewed and interpreted from a security analyst perspective.
 
-##Project Results
+## Project Results
 
 The completed lab demonstrated that security data could be collected from multiple systems and reviewed through a centralized SIEM platform.
 
 The project also provided hands-on experience with:
 
--Virtual machine configuration
--Static IP addressing
--Network connectivity
--Windows and Linux administration
--Splunk index and forwarder configuration
--PowerShell logging
--Linux log collection
--Snort alert generation
--Security event simulation
--SPL searches
--Troubleshooting log-ingestion problems
--Security analysis and documentation
+- Virtual machine configuration
+- Static IP addressing
+- Network connectivity
+- Windows and Linux administration
+- Splunk index and forwarder configuration
+- PowerShell logging
+- Linux log collection
+- Snort alert generation
+- Security event simulation
+- SPL searches
+- Troubleshooting log-ingestion problems
+- Security analysis and documentation
 
 ## Current Status
 
@@ -126,13 +127,13 @@ This repository expands the academic project into a long-term cybersecurity port
 
 Planned improvements may include:
 
--Expanded use of 4Windows
--Active Directory testing
--Additional Windows Security auditing
--New Snort detection rules
--More targeted SPL searches
--Splunk alerts and dashboards
--Correlation of endpoint and network events
--Incident-response playbooks
--Additional attack simulations
--Detection-rule development
+- Expanded use of 4Windows
+- Active Directory testing
+- Additional Windows Security auditing
+- New Snort detection rules
+- More targeted SPL searches
+- Splunk alerts and dashboards
+- Correlation of endpoint and network events
+- Incident-response playbooks
+- Additional attack simulations
+- Detection-rule development
