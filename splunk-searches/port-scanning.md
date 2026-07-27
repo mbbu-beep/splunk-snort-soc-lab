@@ -8,27 +8,23 @@ The purpose of this test was to determine whether network reconnaissance activit
 
 | System | Role | IP Address |
 |---|---|---|
-| `1Splunk` | SIEM used to review collected network events |
-| `2Snort` | IDS sensor used to monitor network traffic |
-| `3Windows` |  |
-| `4Windows` |  |
-| `5Linux` | Linux endpoint used as the scan target |
-| `6Linux` | Attack and testing machine used to run the scan |
+| `1Splunk` | SIEM used to review collected network events | 192.168.74.10 |
+| `2Snort` | IDS sensor used to monitor network traffic | 192.168.74.20 |
+| `3Windows` | Windows User Workstation | 192.168.74.30 |
+| `4Windows` | Domain/Server | 192.168.74.40 |
+| `5Linux` | Linux endpoint used as the scan target | 192.168.74.50 |
+| `6Linux` | Attack and testing machine used to run the scan | 192.168.74.60 |
 
-
-
-
-`6Linux` used the IP address `192.168.74.60`, while the `5Linux` endpoint used `192.168.74.50`.
 
 ## Test Activity
 
-Nmap was run from `6Linux` against the `5Linux` endpoint within the isolated VMware network.
+Nmap was run from 6Linux against the 5Linux endpoint to identify open ports and available services within the isolated VMware network.
 
 ```bash
 nmap 192.168.74.50
 ```
 
-The scan checked the target system for open ports and available services. The final report identifies `6Linux` as the source of the Nmap activity and describes the purpose as testing whether network reconnaissance could be detected and analyzed. :contentReference[oaicite:1]{index=1}
+The scan checked the target system for open ports and available services. The final report identifies `6Linux` as the source of the Nmap activity and describes the purpose as testing whether network reconnaissance could be detected and analyzed. 
 
 ## Log and Alert Sources
 
@@ -38,7 +34,7 @@ The resulting network activity could be reviewed through:
 - The Splunk `network` index
 - The Nmap results displayed on `6Linux`
 
-Snort was configured to forward alert data to the `network` index in Splunk. :contentReference[oaicite:2]{index=2}
+Snort was configured to forward alert data to the `network` index in Splunk.
 
 ## Splunk Search
 
