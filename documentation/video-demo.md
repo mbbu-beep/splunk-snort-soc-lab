@@ -1,1 +1,9 @@
+# Video Demonstration
 
+This video provides a walkthrough of the VMware-based SOC lab, including the lab architecture, log collection, simulated security events, and analysis in Splunk.
+
+## Watch the Demo
+
+[![Watch the Splunk and Snort SOC Lab Demo](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=XDrDwW4bpJg)
+
+*Click the image to open the video on YouTube.*
