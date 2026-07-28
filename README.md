@@ -1,12 +1,8 @@
-## Project Resources
-
-- [Project Overview](documentation/project-overview.md)
-- [Lab Architecture](documentation/architecture.md)
-- [Log Sources](documentation/log-sources.md)
-- [Video Demonstration](documentation/video-demo.md)
-
 # splunk-snort-soc-lab
 A VMware-based SOC lab using Splunk and Snort to collect, simulate, and analyze security events across multiple operating systems and endpoints.
+
+**Quick Links:** *| [Project Overview](documentation/project-overview.md) | [Lab Architecture](documentation/architecture.md) | [Log Sources](documentation/log-sources.md) | [Video Demonstration](documentation/video-demo.md) |*
+
 ## My **W H Y**
 I developed this lab as my Senior-level Capstone Project for Georgia Southern University. I wanted to focus on a simulated enterprise environment that could illustrate problems that are common for small business owners. This lab provides a sandbox environment where I can develop detection rules, test simulated attacks, and practice incident response procedures in a controlled setting.
 ## Project Overview
