@@ -12,6 +12,12 @@ Splunk Universal Forwarders monitored the configured log sources and sent the re
 
 The data was separated into the `windows`, `linux`, and `network` indexes according to the type and source of the activity.
 
+## Splunk Receiving Port
+
+![Splunk receiving port 9997](04-splunk-receiving-port-9997.jpg)
+
+*Figure 3. Splunk configured to receive forwarded data on port `9997`.*
+
 ## Splunk Indexes
 
 | Index | Purpose |
@@ -19,6 +25,12 @@ The data was separated into the `windows`, `linux`, and `network` indexes accord
 | `windows` | Stores Windows Event Log and PowerShell activity |
 | `linux` | Stores Linux authentication and system activity |
 | `network` | Stores Snort IDS alerts and network-related events |
+
+## Index Configuration
+
+![Network index created in Splunk](05-network-index-created.jpg)
+
+*Figure 4. The `network` index created for Snort and network events.*
 
 ## Log Source Inventory
 
@@ -148,6 +160,12 @@ server = 192.168.74.10:9997
 
 [tcpout-server://192.168.74.10:9997]
 ```
+
+## Forwarder Connection
+
+![Universal Forwarder connected to Splunk](06-forwarder-connected-to-indexer.jpg)
+
+*Figure 5. Splunk Universal Forwarder connected to the central indexer.*
 
 ## Validation Searches
 
