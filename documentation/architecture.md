@@ -8,6 +8,8 @@ Each virtual machine was assigned a specific role within the lab so that Windows
 
 The systems communicated through an isolated VMware NAT network using static IP addresses.
 
+**Quick Links:** *| [Project Overview](documentation/project-overview.md) | [Lab Architecture](documentation/architecture.md) | [Log Sources](documentation/log-sources.md) | [Video Demonstration](documentation/video-demo.md) |*
+
 ## Virtual Machines
 
 | System | Operating System | Role | IP Address |
