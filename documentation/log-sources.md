@@ -113,6 +113,10 @@ disabled = false
 index = linux
 sourcetype = linux_secure
 ```
+![Linux auth.log monitoring configuration](12-auth-log-monitoring.jpg)
+
+*Figure 12. Splunk Universal Forwarder configured to monitor `/var/log/auth.log` for Linux authentication activity.*
+
 
 This log provided visibility into activity such as:
 
