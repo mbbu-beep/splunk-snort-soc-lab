@@ -3,7 +3,6 @@
 - [Project Overview](documentation/project-overview.md)
 - [Lab Architecture](documentation/architecture.md)
 - [Log Sources](documentation/log-sources.md)
-- [Lessons Learned](documentation/lessons-learned.md)
 - [Video Demonstration](documentation/video-demo.md)
 
 # splunk-snort-soc-lab
