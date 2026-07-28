@@ -30,6 +30,10 @@ PowerShell commands were submitted on `3Windows` to generate controlled activity
 
 The test was designed to confirm that the enabled PowerShell logging configuration recorded the commands and forwarded the resulting events to the Splunk `windows` index. The final report documents that test PowerShell activity was generated, but it does not preserve every exact command entered during this portion of testing. 
 
+![Get-Process PowerShell activity displayed in Splunk](11-get-process-powershell-event.jpg)
+
+*Figure 11. PowerShell `Get-Process` activity from `3Windows` recorded in the PowerShell Operational Log and displayed in Splunk.*
+
 ## Log Source
 
 The activity was collected from:
