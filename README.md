@@ -46,4 +46,4 @@ This VMware-based lab consists of six virtual machines connected over a NAT netw
 - Document the configuration, testing, troubleshooting, and results
 
 ## Project Status
-*Last updated 7/26/2026*
+*Last updated 7/27/2026*
