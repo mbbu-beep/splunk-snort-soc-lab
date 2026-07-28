@@ -59,6 +59,10 @@ index = windows
 
 A manual test event was generated using the Windows `eventcreate` command and reviewed through the `windows` index.
 
+![Manual Windows Application event created on 3Windows](08-eventcreate-test.jpg)
+
+*Figure 8. Manual Application Log event generated on `3Windows` using `eventcreate`.*
+
 ### Security Log
 
 The Windows Security Log was included to collect authentication, logon, account, and other security-related events.
@@ -202,6 +206,10 @@ index=network sourcetype=snort
 ```
 
 After confirming ingestion, searches were narrowed using the host, sourcetype, username, event details, keywords, and applicable time range.
+
+![Windows Event Log search results in Splunk](09-windows-eventlog-splunk-search.jpg)
+
+*Figure 9. Windows Event Log data from `3Windows` displayed in Splunk.*
 
 ## Validation Considerations
 
