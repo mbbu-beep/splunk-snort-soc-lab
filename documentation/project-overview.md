@@ -8,6 +8,8 @@ I developed the lab as my senior-level Capstone Project for Georgia Southern Uni
 
 The environment provides a controlled sandbox where I can generate security events, test detection methods, review logs, develop Splunk searches, and practice incident-response procedures without affecting a production network.
 
+**Quick Links:** *| [Project Overview](documentation/project-overview.md) | [Lab Architecture](documentation/architecture.md) | [Log Sources](documentation/log-sources.md) | [Video Demonstration](documentation/video-demo.md) |*
+
 ## Project Objectives
 
 The primary objectives of the project were to:
