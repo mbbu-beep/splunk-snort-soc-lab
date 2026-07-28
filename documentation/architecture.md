@@ -31,6 +31,17 @@ The systems communicated through an isolated VMware NAT network using static IP 
   192.168.74.10        .20          .30          .40        .50         .60
 ```
 
+## Static IP Configuration
+
+![Windows static IP configuration](01-windows-static-ip.jpg)
+
+*Figure 1. Static IP configuration for the 3Windows workstation.*
+
+![Linux static IP configuration](02-linux-static-ip.jpg)
+
+*Figure 2. Static IP configuration for the 6Linux testing machine.*
+
+
 ## Log Collection Flow
 
 The Splunk server acted as the central destination for log data generated throughout the environment.
