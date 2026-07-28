@@ -63,6 +63,10 @@ index=network sourcetype=snort
 
 The time range should be adjusted to match the period when the test traffic was generated.
 
+![Snort alerts displayed in Splunk](13-snort-alerts-in-splunk.jpg)
+
+*Figure 13. Snort IDS alerts from `2Snort` displayed in the Splunk `network` index.*
+
 ## Expected Evidence
 
 The results should show:
