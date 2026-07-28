@@ -18,5 +18,9 @@ Set-ItemProperty -Path "HKLM:\Software\Policies\Microsoft\Windows\PowerShell\Mod
   -Name "*" `
   -Value "*"
 
+![PowerShell Module Logging enabled on 3Windows](10-powershell-module-logging-enabled.jpg)
+
+*Figure 10. PowerShell Module Logging enabled on `3Windows` to increase visibility into executed PowerShell activity.*
+
 # Enable PowerShell Operational log
 wevtutil sl "Microsoft-Windows-PowerShell/Operational" /e:true
