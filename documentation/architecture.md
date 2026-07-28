@@ -149,3 +149,8 @@ The environment can be expanded to include:
 - Additional attack simulations
 - Incident-response playbooks
 - Correlation searches across Windows, Linux, and network data
+
+## Evidence & Screenshots
+
+
+
