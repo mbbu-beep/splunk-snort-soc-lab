@@ -3,8 +3,6 @@
 - [Project Overview](documentation/project-overview.md)
 - [Lab Architecture](documentation/architecture.md)
 - [Log Sources](documentation/log-sources.md)
-- [Security Event Testing](splunk-searches/README.md)
-- [Configuration Files](configurations/README.md)
 - [Lessons Learned](documentation/lessons-learned.md)
 - [Video Demonstration](documentation/video-demo.md)
 
