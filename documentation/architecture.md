@@ -163,7 +163,3 @@ The environment can be expanded to include:
 - Incident-response playbooks
 - Correlation searches across Windows, Linux, and network data
 
-## Evidence & Screenshots
-
-
-
