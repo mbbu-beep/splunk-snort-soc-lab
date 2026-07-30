@@ -6,6 +6,8 @@ Building this lab taught me that creating a functional security monitoring envir
 
 The project required networking, system administration, log configuration, troubleshooting, security testing, and documentation. It also reinforced that security events are only useful when the complete collection process is working correctly.
 
+**Quick Links:** *| [Project Overview](project-overview.md) | [Lab Architecture](architecture.md) | [Log Sources](log-sources.md) | [Video Demonstration](video-demo.md) |*
+
 ## Log Collection Must Be Verified End to End
 
 One of the most important lessons was that enabling a log source does not automatically mean the data is reaching Splunk.
