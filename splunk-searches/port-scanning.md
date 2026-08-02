@@ -44,34 +44,5 @@ index=network
 
 The search results were narrowed using the appropriate time range to locate activity associated with the port scan.
 
-## Expected Evidence
 
-The test should produce evidence showing:
 
-- Nmap scanning the target host
-- Open or responding ports identified by Nmap
-- Network traffic originating from `6Linux`
-- A related Snort alert, when the traffic matched an enabled rule
-- Searchable network events in Splunk
-
-## Analyst Interpretation
-
-Port scanning is commonly used to identify active hosts, open ports, and available services before attempting further access.
-
-A port scan does not automatically prove malicious activity. It may result from:
-
-- Authorized vulnerability testing
-- Network troubleshooting
-- Asset discovery
-- Security monitoring tools
-- Unauthorized reconnaissance
-
-A security analyst would review the source IP address, destination system, ports scanned, timing, frequency, and whether the activity was authorized.
-
-## Result
-
-The test generated port-scanning traffic from `6Linux` within the controlled lab environment. The activity demonstrated how Nmap can be used for reconnaissance and how related network data can be reviewed through Snort and the Splunk `network` index.
-
-## Screenshot Evidence
-
-*Screenshot to be added showing the Nmap scan, related Snort alert, or corresponding results in Splunk.*
