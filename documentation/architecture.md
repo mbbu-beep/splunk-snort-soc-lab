@@ -24,13 +24,13 @@ The systems communicated through an isolated VMware NAT network using static IP 
 ## Network Layout
 
 ```text
-                         VMware NAT Network
-                          192.168.74.0/24
-                                  |
-        ------------------------------------------------------------------
-        |                |            |            |          |          |
-    1Splunk           2Snort      3Windows     4Windows    5Linux      6Linux
-  192.168.74.10        .20          .30          .40        .50         .60
+                                       VMware NAT Network
+                                        192.168.74.0/24
+                                                |
+        -------------------------------------------------------------------------------------
+        |                  |               |                 |               |              |
+    1Splunk             2Snort         3Windows          4Windows        5Linux          6Linux
+  192.168.74.10          .20             .30               .40             .50             .60
 ```
 
 ## Static IP Configuration
@@ -49,19 +49,19 @@ The systems communicated through an isolated VMware NAT network using static IP 
 The Splunk server acted as the central destination for log data generated throughout the environment.
 
 ```text
+2Snort ─────────────────|
+Snort alert log         |
+                        |
 3Windows ───────────────┐
 Windows logs            |
 PowerShell logs         |
+                        |──> Splunk Universal Forwarders
+4Windows ───────────────|         send data to
+Windows logs            |         1Splunk:9997
                         |
-4Windows ───────────────| 
-Windows logs            |
-                        |
-5Linux ─────────────────|──> Splunk Universal Forwarders
-Linux auth.log          |        send data to
-Linux syslog            |      1Splunk:9997
-                        |
-2Snort ─────────────────|
-Snort alert log         |
+5Linux ─────────────────|
+Linux auth.log          |
+Linux syslog            |
                         |
 6Linux ─────────────────┘
 Linux and test activity
@@ -87,6 +87,7 @@ The primary log sources included:
 
 | Source System | Log Source |
 |---|---|
+| `2Snort` | `/var/log/snort/alert` |
 | `3Windows` | Windows Application Log |
 | `3Windows` | Windows Security Log |
 | `3Windows` | PowerShell Operational Log |
@@ -94,7 +95,7 @@ The primary log sources included:
 | `5Linux` | `/var/log/auth.log` |
 | `5Linux` | `/var/log/syslog` |
 | `6Linux` | Linux authentication and system activity |
-| `2Snort` | `/var/log/snort/alert` |
+
 
 ## Security Testing Flow
 
