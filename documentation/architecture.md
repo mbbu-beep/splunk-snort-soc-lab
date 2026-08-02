@@ -49,10 +49,10 @@ The systems communicated through an isolated VMware NAT network using static IP 
 The Splunk server acted as the central destination for log data generated throughout the environment.
 
 ```text
-2Snort ─────────────────|
+2Snort ─────────────────┐ 
 Snort alert log         |
                         |
-3Windows ───────────────┐
+3Windows ───────────────|
 Windows logs            |
 PowerShell logs         |
                         |──> Splunk Universal Forwarders
