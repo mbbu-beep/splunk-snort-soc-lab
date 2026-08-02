@@ -10,6 +10,7 @@ The systems communicated through an isolated VMware NAT network using static IP 
 
 **Quick Links:** *| [Project Overview](project-overview.md) | [Lab Architecture](architecture.md) | [Log Sources](log-sources.md) | [Video Demonstration](video-demo.md) |*
 
+
 ## Virtual Machines
 
 | System | Operating System | Role | IP Address |
@@ -20,6 +21,7 @@ The systems communicated through an isolated VMware NAT network using static IP 
 | `4Windows` | Windows Server | Server and domain-related Windows system | `192.168.74.40` |
 | `5Linux` | Ubuntu Linux | Linux endpoint and log source | `192.168.74.50` |
 | `6Linux` | Ubuntu Linux | Attack simulation and testing machine | `192.168.74.60` |
+
 
 ## Network Layout
 
@@ -42,6 +44,7 @@ The systems communicated through an isolated VMware NAT network using static IP 
 ![Linux static IP configuration](02-linux-static-ip.jpg)
 
 *Figure 2. Static IP configuration for the 6Linux testing machine.*
+
 
 
 ## Log Collection Flow
@@ -73,6 +76,7 @@ The Splunk Universal Forwarders sent collected events to:
 192.168.74.10:9997
 ```
 
+
 ## Splunk Indexes
 
 | Index | Data Collected |
@@ -80,6 +84,7 @@ The Splunk Universal Forwarders sent collected events to:
 | `windows` | Windows Event Logs and PowerShell activity |
 | `linux` | Linux authentication and system logs |
 | `network` | Snort alerts and network-related events |
+
 
 ## Log Sources
 
@@ -141,6 +146,7 @@ Splunk Universal Forwarder
 1Splunk
 ```
 
+
 ## Design Purpose
 
 The architecture was designed to demonstrate the full event-monitoring process:
@@ -151,6 +157,7 @@ The architecture was designed to demonstrate the full event-monitoring process:
 4. The event is sent to the Splunk server.
 5. Splunk stores the event in the appropriate index.
 6. The activity is searched, reviewed, and interpreted from a security analyst perspective.
+
 
 ## Future Expansion
 
