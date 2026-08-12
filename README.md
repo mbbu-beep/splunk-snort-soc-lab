@@ -14,7 +14,7 @@ This video provides a walkthrough of the VMware-based SOC lab, including the lab
 ## Watch the Demo
 
 [![Watch the Splunk and Snort SOC Lab Demo](https://img.youtube.com/vi/XDrDwW4bpJg/hqdefault.jpg)](https://www.youtube.com/watch?v=XDrDwW4bpJg)
-
+*Click the image to open the video on YouTube.*
 
 ## Security Events Tested
 
@@ -56,7 +56,7 @@ This video provides a walkthrough of the VMware-based SOC lab, including the lab
 
 
 
-*Click the image to open the video on YouTube.*
+
 
 ## Project Status
 *Last updated 7/27/2026*
