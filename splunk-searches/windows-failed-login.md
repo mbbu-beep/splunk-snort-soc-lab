@@ -83,7 +83,16 @@ Repeated failures from the same source or attempts against several accounts woul
 
 The test generated controlled failed Windows sign-in activity on `3Windows`.
 
-The project was designed to determine whether the resulting event appeared in the Windows Security log and Splunk. Because the Security log validation was recorded as deferred in the project documentation, the final result should be updated after the corresponding evidence is located or the test is reproduced.
+---
+
+### *About This Project*
+
+**Created by Molly Bentley Ussery | Senior Capstone Project | July 2026**
+
+This project documents hands-on cybersecurity work completed in a six-system Splunk + Snort SOC lab, including security monitoring, detection, attack simulation, investigation, and analyst documentation.
+
+🔗 **Quick Links** *| [Cybersecurity Portfolio](https://mbbu-beep.github.io/) | [Project Home](https://github.com/mbbu-beep/splunk-snort-soc-lab) | [Video Demo](https://github.com/mbbu-beep/splunk-snort-soc-lab/blob/main/documentation/video-demo.md) | [Cybersecurity Insights](https://github.com/mbbu-beep/cybersecurity-insights) | [LinkedIn](https://www.linkedin.com/in/mollybbussery/) |* 🔒
+
 
 ## Screenshot Evidence
 
