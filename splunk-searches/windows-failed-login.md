@@ -35,7 +35,7 @@ The corresponding Splunk sourcetype was:
 WinEventLog:Security
 ```
 
-The Windows Security log was included in the forwarder configuration for `3Windows`. In the project log-source table, its final validation status was listed as deferred, so the GitHub documentation should not claim more than the available evidence confirms. 
+The Windows Security log was included in the forwarder configuration for `3Windows`. The available project evidence confirms that controlled failed sign-in activity was generated, but does not independently preserve a validated Splunk Security Log result for that specific test.
 
 ## Splunk Search
 
