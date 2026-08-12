@@ -96,6 +96,12 @@ The test confirmed that Snort could inspect lab traffic, generate an alert based
 
 It also demonstrated that Snort only identifies activity covered by its active configuration and detection rules.
 
-## Screenshot Evidence
+---
 
-*Screenshots will be added beside the applicable test activity and Splunk search after the event is reproduced or located in the existing project evidence.*
+### *About This Project*
+
+**Created by Molly Bentley Ussery | Senior Capstone Project | July 2026**
+
+This project documents hands-on cybersecurity work completed in a six-system Splunk + Snort SOC lab, including security monitoring, detection, attack simulation, investigation, and analyst documentation.
+
+🔗 **Quick Links** *| [Cybersecurity Portfolio](https://mbbu-beep.github.io/) | [Project Home](https://github.com/mbbu-beep/splunk-snort-soc-lab) | [Video Demo](https://github.com/mbbu-beep/splunk-snort-soc-lab/blob/main/documentation/video-demo.md) | [Cybersecurity Insights](https://github.com/mbbu-beep/cybersecurity-insights) | [LinkedIn](https://www.linkedin.com/in/mollybbussery/) |* 🔒
