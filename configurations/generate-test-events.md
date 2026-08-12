@@ -57,7 +57,7 @@ The generated activity was reviewed using:
 
 ---
 
-### About This Project
+### *About This Project*
 
 **Created by Molly Bentley Ussery | Senior Capstone Project | July 2026**
 
