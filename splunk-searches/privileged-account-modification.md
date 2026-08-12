@@ -86,6 +86,12 @@ A security analyst should verify who performed the change, whether it was approv
 
 The test generated controlled account and administrative group changes on `3Windows`. The activity demonstrated how local account creation and privileged membership changes can be reviewed through Windows and PowerShell logging in Splunk.
 
-## Screenshot Evidence
+---
 
-*Screenshot to be added showing the temporary account creation, administrative group modification, or corresponding PowerShell events in Splunk.*
+### *About This Project*
+
+**Created by Molly Bentley Ussery | Senior Capstone Project | July 2026**
+
+This project documents hands-on cybersecurity work completed in a six-system Splunk + Snort SOC lab, including security monitoring, detection, attack simulation, investigation, and analyst documentation.
+
+🔗 **Quick Links** *| [Cybersecurity Portfolio](https://mbbu-beep.github.io/) | [Project Home](https://github.com/mbbu-beep/splunk-snort-soc-lab) | [Video Demo](https://github.com/mbbu-beep/splunk-snort-soc-lab/blob/main/documentation/video-demo.md) | [Cybersecurity Insights](https://github.com/mbbu-beep/cybersecurity-insights) | [LinkedIn](https://www.linkedin.com/in/mollybbussery/) |* 🔒
