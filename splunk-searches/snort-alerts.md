@@ -23,11 +23,7 @@ A custom Snort rule was configured to detect ICMP traffic directed toward the pr
 alert icmp any any -> $HOME_NET any (msg:"ICMP Ping Detected"; sid:1000001; rev:1;)
 ```
 
-A complete breakdown of this rule is available in:
-
-```text
-configurations/snort-local.md
-```
+A complete breakdown of this rule is available in [Snort Local Rule Configuration](../configurations/snort-local.md).
 
 ## Test Activity
 
