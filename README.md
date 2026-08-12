@@ -1,4 +1,4 @@
-# splunk-snort-soc-lab
+# SOC Lab
 A VMware-based SOC lab using Splunk and Snort to collect, simulate, and analyze security events across multiple operating systems and endpoints.
 
 **Quick Links:** *| [Project Overview](documentation/project-overview.md) | [Lab Architecture](documentation/architecture.md) | [Log Sources](documentation/log-sources.md) | [Video Demonstration](documentation/video-demo.md) |*
@@ -14,6 +14,7 @@ This video provides a walkthrough of the VMware-based SOC lab, including the lab
 ## Watch the Demo
 
 [![Watch the Splunk and Snort SOC Lab Demo](https://img.youtube.com/vi/XDrDwW4bpJg/hqdefault.jpg)](https://www.youtube.com/watch?v=XDrDwW4bpJg)
+
 *Click the image to open the video on YouTube.*
 
 ## Security Events Tested
