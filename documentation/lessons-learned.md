@@ -160,3 +160,13 @@ Future improvements to the lab may include:
 The project gave me hands-on experience with the complete security monitoring process rather than only one tool.
 
 I learned how security activity is generated, recorded, forwarded, indexed, searched, and interpreted. I also learned that successful monitoring depends on careful configuration, continuous validation, and the ability to troubleshoot problems across multiple systems.
+
+---
+
+### *About This Project*
+
+**Created by Molly Bentley Ussery | Senior Capstone Project | July 2026**
+
+This project documents hands-on cybersecurity work completed in a six-system Splunk + Snort SOC lab, including security monitoring, detection, attack simulation, investigation, and analyst documentation.
+
+🔗 **Quick Links** *| [Cybersecurity Portfolio](https://mbbu-beep.github.io/) | [Project Home](https://github.com/mbbu-beep/splunk-snort-soc-lab) | [Video Demo](https://github.com/mbbu-beep/splunk-snort-soc-lab/blob/main/documentation/video-demo.md) | [Cybersecurity Insights](https://github.com/mbbu-beep/cybersecurity-insights) | [LinkedIn](https://www.linkedin.com/in/mollybbussery/) |* 🔒
