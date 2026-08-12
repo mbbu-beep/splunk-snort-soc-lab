@@ -38,7 +38,7 @@ Windows Security Log
 Microsoft-Windows-PowerShell/Operational
 ```
 
-The PowerShell Operational Log was confirmed as a completed log source. Windows Security Log collection was configured, although its validation status was listed as deferred in the earlier log-source table.
+The PowerShell Operational Log was confirmed as a completed log source. Windows Security Log collection was also configured, although the preserved project evidence is strongest for the PowerShell activity associated with this test.
 
 ## Splunk Searches
 
