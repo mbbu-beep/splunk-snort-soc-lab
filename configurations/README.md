@@ -4,7 +4,7 @@ This folder contains sanitized configuration files and scripts used to configure
 
 ---
 
-### About This Project
+### *About This Project*
 
 **Created by Molly Bentley Ussery | Senior Capstone Project | July 2026**
 
